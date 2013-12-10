@@ -1,0 +1,5 @@
+body{background:url("../img/main_bg.png")}
+#sidebar-wrapper{background:url("../img/sidebar_bg.png")}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){body{background:url("../img/main_bg_@2x.png")}
+#sidebar-wrapper{background:url("../img/sidebar_bg_@2x.jpg")}
+}

@@ -1,11 +1,15 @@
 var menuToggle = function() {
 	var 
-		$menu    = $('#menu-toggle'),
-		$wrapper = $('#wrapper');
+		$menuBtn = $('#menu-toggle'),
+		$sidebar = $('#sidebar-wrapper');
 
-	$menu.on('click',function(e) {
+	$menuBtn.on('click',function(e) {
 		e.preventDefault();
-		$wrapper.toggleClass('active');
+		//$wrapper.toggleClass('active');
+		$sidebar.slideToggle('slow');
 	});
-}
+};
 menuToggle();
+
+// LOAD NAV SIDEBAR
+$('#sidebar-wrapper').load('fragments/nav.html');

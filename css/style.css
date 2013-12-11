@@ -1,5 +1,7 @@
 body{background:url("../img/main_bg.png")}
+ul{list-style-type:none;padding:0}
 #sidebar-wrapper{background:url("../img/sidebar_bg.png")}
+.story{display:none}
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){body{background:url("../img/main_bg_@2x.png")}
 #sidebar-wrapper{background:url("../img/sidebar_bg_@2x.jpg")}
 }
